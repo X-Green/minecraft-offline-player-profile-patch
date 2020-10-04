@@ -3,7 +3,6 @@
   "package": "dev.eeasee.offline_profile_accessor.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "CommandManagerMixin",
     "ServerLoginNetworkHandlerMixin"
   ],
   "client": [

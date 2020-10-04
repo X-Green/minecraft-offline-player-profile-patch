@@ -17,17 +17,10 @@
   "icon": "assets/mod/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "dev.eeasee.offline_profile_accessor.OfflineAccessor"
-    ]
-  },
   "mixins": [
     "offline_profile_accessor.mixins.json"
   ],
 
   "depends": {
-    "minecraft": "1.16.x",
-    "fabricloader": ">=0.4.0"
   }
 }
