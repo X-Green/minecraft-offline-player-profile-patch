@@ -1,36 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "carpet-extension",
-  "version": "1.4.6",
+  "id": "offline-profile-accessor",
+  "version": "1.0.0",
 
-  "name": "Example Carpet Extension Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Offline Profile Accessor",
+  "description": "",
   "authors": [
-    "Me!"
+    "eeasee"
   ],
   "contact": {
-    "homepage": "https://web.me/",
-    "sources": "https://github.com/gnembon/fabric-carpet-extension-example-mod"
+    "homepage": "https://space.bilibili.com/28256514/",
+    "sources": "https://github.com/X-Green/minecraft-offline-profile-accessor"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/mod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
+      "dev.eeasee.offline_profile_accessor.OfflineAccessor"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "offline_profile_accessor.mixins.json"
   ],
 
   "depends": {
     "minecraft": "1.16.x",
-    "fabricloader": ">=0.4.0",
-    "carpet": "*"
-  },
-  "suggests": {
-    "flamingo": "*"
+    "fabricloader": ">=0.4.0"
   }
 }
